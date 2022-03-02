@@ -46,8 +46,9 @@ html {
   }*/
 
   p{
-    color: purple;
-    margin: 0.5em 0;
+    color: rgb(2, 2, 2);
+    font-size:  30px;
+    padding: 50px ;
   }
   
   * {

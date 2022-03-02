@@ -95,4 +95,51 @@ function greetingFunction(){
   const name = prompt("What is your name?");
   alert(`Hello ${name}`);
   welcomeText.textContent = `Welcome ${name}`;
-}*/
+}
+
+
+var num1 = parseInt(prompt("Provide First Number:"));
+var num2 = parseInt(prompt("Provide Second Number:"));
+function add(num1, num2){
+  var result = num1 + num2
+  var outputText = "The sum is: "+ result
+  alert(outputText)
+}
+add(num1, num2);*/
+
+
+
+/*function newGreeting(){
+  let name = prompt("What is your name?")
+  alert(`Hi there! Thank you for visiting us ${name}`)
+}
+newGreeting();*/
+
+/*function subtractNumbers(){
+  let num1 = parseInt(prompt("Enter first operand"));
+  let num2 = parseInt(prompt("Enter second operand"))
+  let result = num1 - num2;
+  alert(`This is the value after subtracting your operands:  ${result}`)
+
+}
+subtractNumbers();
+
+function userInfo(){
+  let name = prompt("Enter your Name")
+  let age = prompt("Enter your age");
+  let favFood = prompt("Enter favourite food");
+
+  alert(`Hello ${name}, you are ${age} years of age and love ${favFood}`)
+}
+userInfo()*/          
+
+
+function multiply(a, b){
+  return a * b
+}
+
+
+
+
+
+
