@@ -90,4 +90,9 @@ function checkGuess() {
 
 
 
-
+function greetingFunction(){
+  const welcomeText = document.querySelector("#text");
+  const name = prompt("What is your name?");
+  alert(`Hello ${name}`);
+  welcomeText.textContent = `Welcome ${name}`;
+}
