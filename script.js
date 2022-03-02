@@ -86,7 +86,7 @@ function checkGuess() {
   guessCount++;
   guessField.value = '';
   guessField.focus();
-}*/
+}
 
 
 
@@ -95,4 +95,4 @@ function greetingFunction(){
   const name = prompt("What is your name?");
   alert(`Hello ${name}`);
   welcomeText.textContent = `Welcome ${name}`;
-}
+}*/

@@ -30,7 +30,7 @@ html {
   .lastResult {
     color: white;
     padding: 3px;
-  }*/
+  }
 
 
   body{
@@ -43,4 +43,13 @@ html {
   }
   button{
       padding: 40px;
+  }*/
+
+  p{
+    color: purple;
+    margin: 0.5em 0;
+  }
+  
+  * {
+    box-sizing: border-box;
   }
