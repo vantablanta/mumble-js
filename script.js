@@ -168,6 +168,7 @@ pilau(10) // call the pilau function with the number of plates as the argument.
 
 */
 
+/*
 let firstNumber = parseInt(prompt("Enter first value"));
 let secondNumber = parseInt(prompt("Enter second value"));
 let thirdNumber = parseInt(prompt("Enter third value"));
@@ -203,7 +204,7 @@ para1.textContent = `Is the Final result 48? ${ finalResultCheck }`;
 const para2 = document.getElementById('evenOrOdd');
 const evenOddResultCheck = evenOddResult === 0 ? 'The final result is even!' : 'The final result is odd'
 para2.textContent = evenOddResultCheck;
-
+*/
 
 
 
