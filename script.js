@@ -208,6 +208,19 @@ para2.textContent = evenOddResultCheck;
 
 
 
+// check even or odd
+/*
+let num = parseInt(prompt("Provide number to confirm if its even "));
+function checkEven(num){
+  if (num % 2 == 0){
+    console.log("Even")
+  
+  }else{
+    console.log("ODD")
+  }
+}
+checkEven(num)
+*/
 
 
 
