@@ -222,7 +222,18 @@ function checkEven(num){
 checkEven(num)
 */
 
+// CAFE
+/*
+let coffee = confirm("Do you want Coffee?")
+function cafe(coffee){
+  if (coffee == true){
+    console.log("Ok! Ill bring you coffee")
+  }else {
+    console.log("Ok! Ill bring you tea")
+  }
+}
 
-
+cafe(coffee)
+*/
 
 
