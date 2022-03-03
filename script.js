@@ -168,6 +168,41 @@ pilau(10) // call the pilau function with the number of plates as the argument.
 
 */
 
+let firstNumber = parseInt(prompt("Enter first value"));
+let secondNumber = parseInt(prompt("Enter second value"));
+let thirdNumber = parseInt(prompt("Enter third value"));
+let fourthNumber = parseInt(prompt("Enter fourth value"))
+let firstSumValue = firstNumber + secondNumber
+let firstSubtractValue = thirdNumber - fourthNumber
+let finalResult = firstSumValue * firstSubtractValue
+let evenOddResult = finalResult % 2
+
+const parent = document.querySelector('section')
+
+const firstValue = document.createElement('p')
+firstValue.textContent = `First Input is:  ${firstNumber}`
+
+const secondValue = document.createElement('p')
+secondValue.textContent = `Second Input is:  ${secondNumber}`
+
+const thirdValue = document.createElement('p')
+thirdValue.textContent = `Third Input is:  ${thirdNumber}`
+
+const fourthValue = document.createElement('p')
+fourthValue.textContent = `Fourth Input is:  ${fourthNumber}`
+
+parent.appendChild(firstValue)
+parent.appendChild(secondValue)
+parent.appendChild(thirdValue)
+parent.appendChild(fourthValue)
+
+
+const para1 = document.getElementById('numbers');
+const finalResultCheck = finalResult === 48 ? `Yes, well done!` : `No, it is:  ${ finalResult }`;
+para1.textContent = `Is the Final result 48? ${ finalResultCheck }`;
+const para2 = document.getElementById('evenOrOdd');
+const evenOddResultCheck = evenOddResult === 0 ? 'The final result is even!' : 'The final result is odd'
+para2.textContent = evenOddResultCheck;
 
 
 
