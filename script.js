@@ -134,9 +134,43 @@ function userInfo(){
 userInfo()*/          
 
 
-function multiply(a, b){
+/*function multiply(a, b){
   return a * b
 }
+
+
+// arrow function format
+let pilau = (numberOfPilauPlatesToMake) => {
+    let ingredients = (amountOfIngredient, unitOfMeasure, nameOfIngredient) => {
+           let totalIngredientAmount = amountOfIngredient * numberOfPilauPlatesToMake;
+     if(totalIngredientAmount > 1){
+             nameOfIngredient = nameOfIngredient + "s"      
+     }
+     console.log(`${totalIngredientAmount} ${unitOfMeasure} ${nameOfIngredient}`) 
+  }
+// the mistake I was making was not passign the below to set values for ingredient function
+ingredients(1, "kg", "meat"); //pass various arguments for the ingredients functions 
+ingredients(0.25, "cup", "rice");//pass various arguments for the ingredients functions 
+ingredients(0.25, "cup", "water");//pass various arguments for the ingredients functions 
+ingredients(1, "clove", "garlic");//pass various arguments for the ingredients functions 
+ingredients(2, "tablespoon", " oil");//pass various arguments for the ingredients functions 
+ingredients(0.5, "teaspoon", "spice");//pass various arguments for the ingredients functions 
+}
+//notice where the scope is ending
+
+pilau(10) // call the pilau function with the number of plates as the argument. 
+        //you can call it here or in chromes console
+
+// `{}`this means you to print the value that the variable in here :{} holds
+// it goes like `${variable1} ${variable2} ${variable 3}`
+
+// this exercise is from Eloquent Javascript.
+
+*/
+
+
+
+
 
 
 
