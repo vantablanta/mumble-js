@@ -208,7 +208,7 @@ para2.textContent = evenOddResultCheck;
 
 
 
-// check even or odd
+// CHECK EVEN OR ODD
 /*
 let num = parseInt(prompt("Provide number to confirm if its even "));
 function checkEven(num){
@@ -235,5 +235,27 @@ function cafe(coffee){
 
 cafe(coffee)
 */
+let x = prompt('Enter number to count to')
+let y = prompt('Enter number to count by')
+
+let num1 = parseInt(x)
+let num2 = parseInt(y)
+let nums = []
+function funCount(num1, num2){
+    if (isNaN(num1) || isNaN(num2)){
+        alert('You did not enter a number')
+    }else if(num1 < 0 || num2 < 0){
+        alert('Enter a positive Integer')
+    }else if (num2 > num1){
+        alert("Count By number cant be greater")
+    }else {
+        for(let i = num2; i <= num1; i += num2){
+          console.log(i)
+        }
+    }
+}
+funCount(num1, num2)
+
+
 
 
