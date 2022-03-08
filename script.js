@@ -257,9 +257,9 @@ function funCount(num1, num2){
 funCount(num1, num2)*/
 
 
+// create an array of random numbers and increase ech number in the array by one
 
-
-let arrNumber  = []
+/*let arrNumber  = []
 for (var i=0, t=40; i<t; i++) {
   arrNumber.push(Math.round(Math.random() * t))
 }
@@ -269,3 +269,4 @@ let plusOne = arrNumber.map((number) =>{
    return number += 1
 })
 console.log(plusOne)
+*/
