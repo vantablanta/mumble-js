@@ -270,3 +270,12 @@ let plusOne = arrNumber.map((number) =>{
 })
 console.log(plusOne)
 */
+
+// make an array of words and return the an array with each word in uppercase 
+let arrayWords = ["Michelle", "Javascript", "Maize", "HoneySucker"]
+
+let arrayWordsUpper = arrayWords.map(function(word){
+  return word.toUpperCase()
+})
+
+console.log(arrayWordsUpper)
