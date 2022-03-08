@@ -272,10 +272,28 @@ console.log(plusOne)
 */
 
 // make an array of words and return the an array with each word in uppercase 
-let arrayWords = ["Michelle", "Javascript", "Maize", "HoneySucker"]
+/*let arrayWords = ["Michelle", "Javascript", "Maize", "HoneySucker"]
 
 let arrayWordsUpper = arrayWords.map(function(word){
   return word.toUpperCase()
 })
 
-console.log(arrayWordsUpper)
+console.log(arrayWordsUpper)*/
+
+//make an array of your friends' names. Loop through it and alert() a greeting to each
+/*let arrayFriends = ["Sasha", "Collina", "Emmanuella", "Flora", "Evena"]
+
+let greetingFriend= arrayFriends.forEach(function(friend){
+   console.log(`Hello ${friend}`)
+})*/
+
+//Write a loop to multiply an arbitrary amount of numbers.
+let arrayNumbers = []
+
+for(let i = 0, n = 10; i < n;  i ++){
+    arrayNumbers.push(Math.round(Math.random() * n))
+}
+
+let initialValue = arrayNumbers[0]
+let arrayMultiply = arrayNumbers.reduce((a,b) => {return a * b} , initialValue)
+console.log(arrayMultiply)
