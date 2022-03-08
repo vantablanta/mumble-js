@@ -288,7 +288,7 @@ let greetingFriend= arrayFriends.forEach(function(friend){
 })*/
 
 //Write a loop to multiply an arbitrary amount of numbers.
-let arrayNumbers = []
+/*let arrayNumbers = []
 
 for(let i = 0, n = 10; i < n;  i ++){
     arrayNumbers.push(Math.round(Math.random() * n))
@@ -296,4 +296,14 @@ for(let i = 0, n = 10; i < n;  i ++){
 
 let initialValue = arrayNumbers[0]
 let arrayMultiply = arrayNumbers.reduce((a,b) => {return a * b} , initialValue)
-console.log(arrayMultiply)
+console.log(arrayMultiply)*/
+
+//wordplay
+/*function wordPlay(){
+  let words = prompt("Enter A Sentence").split(' ')
+  let newSentence = words.filter(function(word){
+      return word.length > 3
+  })
+  console.log(newSentence)
+}
+wordPlay()*/
