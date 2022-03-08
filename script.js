@@ -234,7 +234,7 @@ function cafe(coffee){
 }
 
 cafe(coffee)
-*/
+
 let x = prompt('Enter number to count to')
 let y = prompt('Enter number to count by')
 
@@ -250,12 +250,22 @@ function funCount(num1, num2){
         alert("Count By number cant be greater")
     }else {
         for(let i = num2; i <= num1; i += num2){
-          console.log(i)
+          alert(nums.push(i))
         }
     }
 }
-funCount(num1, num2)
+funCount(num1, num2)*/
 
 
 
 
+let arrNumber  = []
+for (var i=0, t=40; i<t; i++) {
+  arrNumber.push(Math.round(Math.random() * t))
+}
+console.log(arrNumber)
+
+let plusOne = arrNumber.map((number) =>{
+   return number += 1
+})
+console.log(plusOne)
